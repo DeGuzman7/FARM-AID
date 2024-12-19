@@ -78,7 +78,7 @@ body{
     margin: 3px 0;
     transition: all 0.3s ease;
   }
-.farmaid-login-button{
+.farmaid-get-started-button{
     background: rgba(19, 21, 21, 0.12);
     border: none;
     border-radius: 8px;
@@ -89,7 +89,7 @@ body{
     font-weight: 500;
     cursor: pointer;
 } 
-.farmaid-login-button:hover{
+.farmaid-get-started-button:hover{
     background: var(--primary-color);
     color: var(--white);  
 }

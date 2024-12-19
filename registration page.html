@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,
+  maximum-scale=5"
+    />
+    <link rel="stylesheet" href="css/registration.css">
+
+    <link rel="icon" href="img-logo-png" />
+
+    <title>farm aid registration page</title>
+  </head>
+   
+  <body>
+    <main>
+        <div>
+            <img src="img/beatiful farm land.jpeg" alt="farm land">
+        </div>
+
+        <section class="form-section">
+            <div class="form-container">
+                <div class="first-content">
+                    <h5>Registration Form</h5>
+                </div>
+
+                <form class="form" id="form" action="" method="get">
+                    <div class="double">
+                        <div class="constant" id="fff">
+                            <label for="fname"></label>
+                            <input type="text" id="fName" placeholder="First Name">
+                            <small>error message</small>
+                        </div>
+                        <div class="constant" id="ggg">
+                            <label for="lname"></label>
+                            <input type="text" id="lName" placeholder="Last Name">
+                            <small>error message</small>
+                        </div>
+                    </div>
+                    <div class="constant">
+                        <label for="email"></label>
+                        <input type="email" id="email" placeholder="Email  Address">
+                        <small>error message</small>
+                    </div>
+                    <div class="constant">
+                        <label for="phone number"></label>
+                        <input type="tel" id="tel">
+                        <small>error message</small>
+                    </div>
+                    <div class="select-cs">
+                        <select id="country" name="country" >
+                            <option value="CO">country</option>
+                            <option value="NIG">Nigeria</option>
+                            <option value="GH">Ghana</option>
+                            <option value="BF">Burkinafaso</option>
+                        </select>
+
+                        <select id="State" name="State" >
+                            <option value="CO">State</option>
+                            <option value="NIG">Anaambra</option>
+                            <option value="GH">lagos</option>
+                            <option value="BF">Kaduna</option>
+                        </select>
+                    </div>
+                    <select id="language" name="language" >
+                        <option value="CO">language</option>
+                        <option value="NIG">English</option>
+                        <option value="GH">Igbo</option>
+                        <option value="BF">yoruba</option>
+                    </select>
+                    <div class="constant">
+                        <label for="Password"></label>
+                        <input type="password" id="password" placeholder="Create Passwod">
+                        <small>error message</small>
+                    </div>
+                    <div class="constant">
+                        <label for="Password2"></label>
+                        <input type="password" id="password2" placeholder="Confirm Password">
+                        <small>error message</small>
+                    </div>
+                    <input type="submit" class="btn" value="Register">
+                </form>
+            </div>
+        </section>
+        
+    </main>
+    
+  </body>
+</html>
