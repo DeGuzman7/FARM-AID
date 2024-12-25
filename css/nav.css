@@ -39,8 +39,8 @@ body{
     top: 0;
     z-index: 9999;
     width: 100%;
-    background:var(--bg-color);
-     font-family:  'Open Sans', sans-serif;
+    background:var(--white);
+    font-family:  'public sans', sans-serif;
     box-shadow: 0px 4px 7px 1px rgba(0, 0, 0, 0.14);
 }
 .farmaid-nav-bar{
@@ -48,6 +48,7 @@ body{
     justify-content: space-between;
     align-items: center;
 }
+
 .farmaid-nav-menu{
     display: flex;
     justify-content: space-between;

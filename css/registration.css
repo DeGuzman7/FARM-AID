@@ -26,15 +26,89 @@ html{
 body{
     font-family: 'public sans', sans-serif;
 }
-
+.farm-img{
+    width: 50%;
+    height: auto;
+   
+}
 main,img{
-    width: 90%;
-    height: 100%;
+    width:100% ;
+    height: auto;
+    object-fit:cover;
+    object-position: center;
 }
 main{
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    padding-top: 1rem;
 }
 .form-container{
     margin: 2rem;
-    padding :1rem ;
+    max-width: 100%;
+
+.double {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1 rem;
+           
+    }
+    
+    .double #fff{
+        margin-right: 10px;
+    }
+    
+    .double #ggg{
+        margin-left: 10px;
+    }   
+}
+.constant {
+    margin-bottom: 5px;
+    padding-bottom: 12px;
+    position: relative;
+} 
+
+.constant input {
+    border: 1px solid rgba(140, 142, 142, 1);
+    border-radius: 5px;
+    display: block;
+    padding: 0.5rem;
+    width: 100%;
+    outline: none;
+}
+
+.constant.success input {
+    border-color: #2ecc71;
+}
+
+.error input {
+    border-color: #e74e3c;
+}
+
+
+.constant small{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+} 
+
+ .constant.error small {
+    color: #e74e3c;
+    visibility: visible;
+    font-family: inherit;
+    font-size: 10px;
+}
+select{ border: 1px solid rgba(140, 142, 142, 1);
+    border-radius: 5px;
+    display: block;
+    padding: 0.5rem;
+    width: 100%;
+    outline: none;
+    margin-bottom: 1rem;
+
 }

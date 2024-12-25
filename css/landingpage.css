@@ -1,0 +1,206 @@
+:root{
+    --primary-color:  #08A142;
+    --secondary-color: #67F74B;
+    --darkgreen: #033817;
+    --light-shade-green: #E6F6EC;
+    --pricing-section-bg: #F0FEED;
+    --pricing-border-color: #3E823D;
+    --black: #000000;
+    --white: #ffffff;
+    --footer-text-color :#3D4F60;
+    --font-familypb: 'public sans' , 'sanserif' ;
+    --font-familyinter: 'inter' , 'sanserif' ;
+}
+
+body{
+    font-family: 'public sans' , 'sanserif' ;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.farmaid-hero-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.farmaid-hero-info>h1{
+    font-family: 'inter' , 'sanserif' ;
+    font-size: 3rem;
+    font-weight: 600;
+}
+.farmaid-hero-subtext>p{
+    font-family: 'public sans' , 'sanserif' ;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.75rem;
+    width: 34.8rem;
+    height: 5.25rem;
+}
+.farmaid-hero-img>img{
+width: 41.9rem;
+height: 36.5rem;
+border-radius: 40px 0px 40px 0px;
+opacity: 0px;
+object-fit: cover;
+
+}
+
+.farmaid-hero-buttons{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+
+
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.secondsection-text{
+    margin: 3rem;
+    padding-top: 2rem;
+}
+
+.secondsection-text>h1{
+    font-family: 'inter' , 'sanserif' ;
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+}
+.subtext{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+.iconbg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3.75rem;
+    height:3.75rem;
+    background-color: #E6F6EC;
+}
+.subtext>img{
+    width: 3.125rem;
+    height: 3.125rem;
+}
+.subtext>p{
+    font-size:1.75rem ;
+}
+.stfour{
+    width: 30.4rem;
+}
+
+
+.third-section-text>h1{
+    font-family: 'inter' , 'sanserif' ;
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+}
+.curve-button{
+    justify-content: space-between;
+    margin-top: 3rem;
+
+}
+.curve-button>button{
+    background-color: var(--primary-color);
+    color: var(--white);
+    font-size: 24px;
+    font-weight: 600;
+    width: 146.63px;
+    height: 60px;
+    left: 140.18px;
+    border-radius: 40px 0px 40px 0px;
+    border: none;
+}
+
+.second-illustration>img{
+    width: 26.25rem;
+    height: 21.2rem;
+}
+.third-illustration>img{
+    width: 22.25rem;
+    height: 17rem;
+}
+.fourth-illustration>img{
+    width: 26.25rem;
+    height: 21.2rem;
+}
+
+.third-section-subtext{
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.fourth-section-text{
+    margin-top: 3rem;
+}
+.fourth-section-text>p{
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+}
+.the-havester-img-container{
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+.the-havester-img-container>img{
+width: 563.06px;
+height: 738.19px;
+border-radius: 40px;
+border: 10px solid white;
+object-fit: cover;
+box-shadow: 0px 4px 4px 10px #00000040;
+}
+.flex-adjust{
+    justify-content: center;
+    gap: 1rem;
+}
+.ontop-content{
+position: absolute;
+top: 370%;
+left: 5%;
+width:458px;
+height: 80px;
+background-color: var(--white);
+padding: 10px;
+border-radius: 20px 0px 20px 0px;
+border: 1px solid var(--primary-color);
+}
+.ontop-content p{
+font-size: 24px;
+font-family: var(--font-familyinter);
+font-weight: 500;
+}
+.overlay-adjust-one{
+    width: 282px;
+    left: 10%;
+}
+.overlay-adjust-one>p{
+    width: 182px;
+    height: 58px;
+}
+
+.overlay-adjust-two{
+    top: 370%;
+    left: 65%;
+    width: 437px;
+}
+.overlay-adjust-three{
+    top: 435%;
+    left: 5%;
+    width:356px;
+}
+.overlay-adjust-four{
+    top: 455%;
+    left: 60%;
+    width: 458px;
+}
